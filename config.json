@@ -1,0 +1,72 @@
+{
+  "DBFilePath": "C:/Users/AdrianGaming/Desktop/Ark_Server/steam/servers/ShooterGame/Binaries/Win64/ArkApi/Plugins/LootBoxes",
+  "Messages": {
+    "prefix": "LootBoxes",
+    "NotExisting": "The LootBox '%lootbox%' doesn't exist!",
+    "Usage": "Please use /box <lootbox>",
+    "NoBox": "You don't have any '%lootbox%' Box left!",
+    "BoxReceived": "You've received the '%lootbox%' Box!"
+  },
+  "LootBoxes": {
+    "vip": {
+      "Items": {
+        "Count": 0,
+        "PossibleItems": [
+          {
+            "Amount": 1,
+            "MinQuality": 100,
+            "MaxQuality": 100,
+            "BlueprintChance": 100,
+            "BlueprintPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedShotgun.PrimalItem_WeaponMachinedShotgun'"
+          },
+          {
+            "Amount": 1,
+            "MinQuality": 100,
+            "MaxQuality": 100,
+            "BlueprintChance": 100,
+            "BlueprintPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedSniper.PrimalItem_WeaponMachinedSniper'"
+          },
+          {
+            "Amount": 1,
+            "MinQuality": 100,
+            "MaxQuality": 100,
+            "BlueprintChance": 100,
+            "BlueprintPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedPistol.PrimalItem_WeaponMachinedPistol'"
+          }
+        ]
+      },
+      "Dinos": {
+        "Count": 1,
+        "PossibleDinos": [
+          {
+            "Level": 450,
+            "BlueprintPath": "Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/RubbleGolem_Character_BP.RubbleGolem_Character_BP'"
+          }
+        ]
+      },
+      "Resources": {
+        "Count": 0,
+        "PossibleResources": [
+          {
+            "Amount": 10000,
+            "BlueprintPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_MetalIngot.PrimalItemResource_MetalIngot'"
+          },
+          {
+            "Amount": 5000,
+            "BlueprintPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic'"
+          }
+        ]
+      },
+      "RCONCommands": {
+        "Count": 0,
+        "PossibleCommands": [
+           {
+            "Command": "AddPoints %steamId% %amount%",
+            "MinPointShop": 100,
+            "MaxPointShop": 2000
+          }
+        ]
+      }
+    }
+  }
+}
